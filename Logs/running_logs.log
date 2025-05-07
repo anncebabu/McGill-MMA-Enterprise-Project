@@ -1,0 +1,121 @@
+[2025-05-07 13:02:57,349 : INFO : main : welcome to the Demand forecast project]
+[2025-05-07 13:02:57,354 : INFO : main : >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-07 13:02:57,358 : ERROR : main : 'ConfiguarationManager' object has no attribute 'config']
+Traceback (most recent call last):
+  File "E:\Data Science Group Study\Portfolio Project\supply chain\McGill-MMA-Enterprise-Project\main.py", line 11, in <module>
+    data_ingestion.main()
+  File "E:\Data Science Group Study\Portfolio Project\supply chain\McGill-MMA-Enterprise-Project\src\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "E:\Data Science Group Study\Portfolio Project\supply chain\McGill-MMA-Enterprise-Project\src\config\configuration.py", line 20, in get_data_ingestion_config
+    config = self.config.data_ingestion
+AttributeError: 'ConfiguarationManager' object has no attribute 'config'
+[2025-05-07 13:11:00,336 : INFO : main : welcome to the Demand forecast project]
+[2025-05-07 13:11:00,445 : INFO : main : >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-07 13:11:00,519 : ERROR : main : 'ConfiguarationManager' object has no attribute 'config']
+Traceback (most recent call last):
+  File "E:\Data Science Group Study\Portfolio Project\supply chain\McGill-MMA-Enterprise-Project\main.py", line 11, in <module>
+    data_ingestion.main()
+  File "E:\Data Science Group Study\Portfolio Project\supply chain\McGill-MMA-Enterprise-Project\src\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "E:\Data Science Group Study\Portfolio Project\supply chain\McGill-MMA-Enterprise-Project\src\config\configuration.py", line 20, in get_data_ingestion_config
+    config = self.config.data_ingestion
+AttributeError: 'ConfiguarationManager' object has no attribute 'config'
+[2025-05-07 13:19:07,912 : INFO : main : welcome to the Demand forecast project]
+[2025-05-07 13:19:07,932 : INFO : main : >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-07 13:19:08,062 : INFO : main : >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-05-07 13:20:33,610 : INFO : main : welcome to the Demand forecast project]
+[2025-05-07 13:20:33,612 : INFO : main : >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-07 13:20:33,614 : INFO : main : >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-05-07 13:24:25,394 : INFO : main : welcome to the Demand forecast project]
+[2025-05-07 13:24:25,396 : INFO : main : >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-07 13:24:25,398 : INFO : main : >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-05-07 13:35:15,719 : INFO : main : welcome to the Demand forecast project]
+[2025-05-07 13:35:15,723 : INFO : main : >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-07 13:35:15,726 : INFO : main : >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-05-07 13:38:23,988 : INFO : main : welcome to the Demand forecast project]
+[2025-05-07 13:38:23,989 : INFO : main : >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-07 13:38:23,990 : INFO : main : >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-05-07 13:43:22,074 : INFO : main : welcome to the Demand forecast project]
+[2025-05-07 13:43:22,087 : INFO : main : >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-07 13:43:22,195 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2025-05-07 13:43:22,466 : INFO : common : yaml file: schema.yaml loaded successfully]
+[2025-05-07 13:43:22,534 : INFO : common : yaml file: params.yaml loaded successfully]
+[2025-05-07 13:43:22,555 : INFO : common : created directory at: artifacts]
+[2025-05-07 13:43:22,827 : INFO : main : >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-05-07 13:44:15,561 : INFO : main : welcome to the Demand forecast project]
+[2025-05-07 13:44:15,561 : INFO : main : >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-07 13:44:15,564 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2025-05-07 13:44:15,584 : INFO : common : yaml file: schema.yaml loaded successfully]
+[2025-05-07 13:44:15,589 : INFO : common : yaml file: params.yaml loaded successfully]
+[2025-05-07 13:44:15,590 : INFO : common : created directory at: artifacts]
+[2025-05-07 13:44:15,601 : INFO : common : created directory at: artifacts/data_ingestion]
+[2025-05-07 13:44:15,607 : ERROR : main : DataIngestion() takes no arguments]
+Traceback (most recent call last):
+  File "E:\Data Science Group Study\Portfolio Project\supply chain\McGill-MMA-Enterprise-Project\main.py", line 11, in <module>
+    data_ingestion.main()
+  File "E:\Data Science Group Study\Portfolio Project\supply chain\McGill-MMA-Enterprise-Project\src\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion = DataIngestion(config=data_ingestion_config)
+TypeError: DataIngestion() takes no arguments
+[2025-05-07 13:46:07,276 : INFO : main : welcome to the Demand forecast project]
+[2025-05-07 13:46:07,278 : INFO : main : >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-07 13:46:07,280 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2025-05-07 13:46:07,331 : INFO : common : yaml file: schema.yaml loaded successfully]
+[2025-05-07 13:46:07,343 : INFO : common : yaml file: params.yaml loaded successfully]
+[2025-05-07 13:46:07,347 : INFO : common : created directory at: artifacts]
+[2025-05-07 13:46:07,355 : INFO : common : created directory at: artifacts/data_ingestion]
+[2025-05-07 13:46:07,358 : ERROR : main : DataIngestion() takes no arguments]
+Traceback (most recent call last):
+  File "E:\Data Science Group Study\Portfolio Project\supply chain\McGill-MMA-Enterprise-Project\main.py", line 11, in <module>
+    data_ingestion.main()
+  File "E:\Data Science Group Study\Portfolio Project\supply chain\McGill-MMA-Enterprise-Project\src\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion = DataIngestion(config=data_ingestion_config)
+TypeError: DataIngestion() takes no arguments
+[2025-05-07 13:47:00,207 : INFO : main : welcome to the Demand forecast project]
+[2025-05-07 13:47:00,208 : INFO : main : >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-07 13:47:00,224 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2025-05-07 13:47:00,323 : INFO : common : yaml file: schema.yaml loaded successfully]
+[2025-05-07 13:47:00,337 : INFO : common : yaml file: params.yaml loaded successfully]
+[2025-05-07 13:47:00,344 : INFO : common : created directory at: artifacts]
+[2025-05-07 13:47:00,354 : INFO : common : created directory at: artifacts/data_ingestion]
+[2025-05-07 13:48:06,780 : INFO : data_ingestion : artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 26169173
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "fca8865797c254a99dc1b925683a8c83dd87438f877a6e4d0716d2b7beaaa1cd"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5ED5:12ADBC:14E298:2EAA99:681B1703
+Accept-Ranges: bytes
+Date: Wed, 07 May 2025 08:17:09 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100028-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1746605828.521358,VS0,VE1582
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 6d656be72dbf7803dd48fbf20ce24ef0a28693a7
+Expires: Wed, 07 May 2025 08:22:09 GMT
+Source-Age: 1
+
+]
+[2025-05-07 13:48:13,354 : INFO : main : >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]

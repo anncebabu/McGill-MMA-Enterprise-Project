@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: MCGILL-MMA-ENTERPRISE-PROJECT
+Version: 0.0.0
+Summary: A small python package for demand forecasting in supply chain
+Home-page: https://github.com/anncebabu/MCGILL-MMA-ENTERPRISE-PROJECT
+Author: anncebabu
+Author-email: anncebabu@gmail.com
+Project-URL: Bug Tracker, https://github.com/anncebabu/MCGILL-MMA-ENTERPRISE-PROJECT/issues
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
