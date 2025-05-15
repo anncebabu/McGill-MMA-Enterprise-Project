@@ -7,8 +7,7 @@ _pycache_/
 *.so
 
 data/*
-artifacts/data_transformation/*
-
+artifacts/data_transformation/transformed_data.csv
 # Distribution / packaging
 .Python
 build/
