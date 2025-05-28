@@ -9,4 +9,5 @@ tqdm
 python-box==6.0.2
 types-pyYaml
 streamlit
+dvc==3.53.0
 -e .

@@ -6,8 +6,10 @@ Home-page: https://github.com/anncebabu/MCGILL-MMA-ENTERPRISE-PROJECT
 Author: anncebabu
 Author-email: anncebabu@gmail.com
 Project-URL: Bug Tracker, https://github.com/anncebabu/MCGILL-MMA-ENTERPRISE-PROJECT/issues
+License-File: LICENSE
 Dynamic: author
 Dynamic: author-email
 Dynamic: home-page
+Dynamic: license-file
 Dynamic: project-url
 Dynamic: summary
